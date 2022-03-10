@@ -3,10 +3,10 @@
   "item.tucanu_bentenmod.galvanic_core": "Galvanic Core",
   "item.tucanu_bentenmod.omnitrix_icon": "Omnitrix Icon",
   "item.tucanu_bentenmod.objective_icon": "Objective Icon",
-  "item.tucanu_bentenmod.galvanic_ore": "Galvanic Ore",
+  "item.tucanu_bentenmod.galvan_ore": "Galvan Ore",
 
 
-  "block.tucanu_bentenmod.galvanic_ore": "Galvanic Ore",
+  "block.tucanu_bentenmod.galvan_ore": "Galvan Ore",
 
   "itemGroup.tucanu_bentenModTab": "Tucanu's Omniverse"
 }

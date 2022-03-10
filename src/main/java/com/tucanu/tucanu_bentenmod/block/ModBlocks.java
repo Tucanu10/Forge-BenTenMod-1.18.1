@@ -20,8 +20,14 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Tucanu_BenTenMod.MOD_ID);
 
-    public static final RegistryObject<Block> GALVANIC_ORE = registerBlock("galvanic_ore",
+
+    public static final RegistryObject<Block> GALVAN_ORE = registerBlock("galvan_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(10f)));
+
+
+
+
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
