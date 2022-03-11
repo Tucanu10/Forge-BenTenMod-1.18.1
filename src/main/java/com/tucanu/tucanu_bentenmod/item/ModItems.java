@@ -10,8 +10,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModItems
 {
+    //Registering Items
+
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Tucanu_BenTenMod.MOD_ID);
+
+    //Registered Items
 
     public static final RegistryObject<Item> GALVANIC_SHARD = ITEMS.register("galvanic_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUCANU_BENTENMOD)));

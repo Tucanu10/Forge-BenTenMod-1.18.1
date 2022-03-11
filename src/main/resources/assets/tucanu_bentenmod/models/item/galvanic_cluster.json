@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tucanu_bentenmod:block/galvanic_cluster"
+  }
+}
