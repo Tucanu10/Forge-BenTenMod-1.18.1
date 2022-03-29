@@ -5,7 +5,14 @@
   "item.tucanu_bentenmod.objective_icon": "Objective Icon",
   "item.tucanu_bentenmod.galvan_ore": "Galvan Ore",
   "item.tucanu_bentenmod.galvanic_cluster": "Galvanic Cluster",
+  "item.tucanu_bentenmod.omnitrix": "Omnitrix",
+  "item.tucanu_bentenmod.af_omnitrix": "Recalibrated Omnitrix",
+  "item.tucanu_bentenmod.ultimatrix": "Ultimatrix",
+  "item.tucanu_bentenmod.negative_ultimatrix": "Negative Ultimatrix",
+  "item.tucanu_bentenmod.the_omnitrix": "The Omnitrix",
 
+  "tooltip.tucanu_bentenmod.omnitrix.tooltip.shift": "Allows the user to transform in many different aliens.",
+  "tooltip.tucanu_bentenmod.omnitrix.tooltip": "Press Shift for more details.",
 
   "block.tucanu_bentenmod.galvan_ore": "Galvan Ore",
   "block.tucanu_bentenmod.galvanic_cluster": "Galvanic Cluster",

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "tucanu_bentenmod:block/galvanic_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "tucanu_bentenmod:block/galvanic_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tucanu_bentenmod:block/galvanic_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "tucanu_bentenmod:block/galvanic_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "tucanu_bentenmod:block/galvanic_cluster"
+    },
+    "facing=west": {
+      "model": "tucanu_bentenmod:block/galvanic_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

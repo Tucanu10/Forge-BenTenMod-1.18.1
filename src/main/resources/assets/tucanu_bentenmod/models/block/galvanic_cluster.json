@@ -1,8 +1,6 @@
 {
-  "parent": "cross",
+  "parent": "block/cross",
   "textures": {
-    "cross": "tucanu_bentenmod:block/galvanic_cluster",
-    "particle": "tucanu_bentenmod:block/galvanic_cluster",
-    "0": "tucanu_bentenmod:block/galvanic_cluster"
+    "cross": "tucanu_bentenmod:block/galvanic_cluster"
   }
 }

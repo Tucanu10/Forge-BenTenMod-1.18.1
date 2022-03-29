@@ -35,7 +35,7 @@ public class Tucanu_BenTenMod
     }
 
     private void setupClient(final FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GALVANIC_CLUSTER.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GALVANIC_CLUSTER.get(), RenderType.translucent());
     }
 
     private void setup(final FMLCommonSetupEvent event)

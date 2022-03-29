@@ -6,9 +6,10 @@ import com.tucanu.tucanu_bentenmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.AmethystClusterBlock;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,12 +23,11 @@ public class ModBlocks {
 
     //Registered Blocks
     public static final RegistryObject<Block> GALVAN_ORE = registerBlock("galvan_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> GALVANIC_CLUSTER = registerBlock("galvanic_cluster",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)));
-
-
+            () -> new AmethystClusterBlock(3,4,BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(2f).requiresCorrectToolForDrops()));
 
 
 

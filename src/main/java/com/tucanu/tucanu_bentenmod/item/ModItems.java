@@ -1,6 +1,7 @@
 package com.tucanu.tucanu_bentenmod.item;
 
 import com.tucanu.tucanu_bentenmod.Tucanu_BenTenMod;
+import com.tucanu.tucanu_bentenmod.item.custom.Omnitrix;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,6 +28,21 @@ public class ModItems
 
     public static final RegistryObject<Item> OBJECTIVE_ICON = ITEMS.register("objective_icon",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> OMNITRIX = ITEMS.register("omnitrix"
+            , () -> new Omnitrix(new Item.Properties().tab(ModCreativeModeTab.TUCANU_BENTENMOD).stacksTo(1)));
+
+    public static final RegistryObject<Item> OMNITRIX_AF = ITEMS.register("af_omnitrix"
+            , () -> new Omnitrix(new Item.Properties().tab(ModCreativeModeTab.TUCANU_BENTENMOD).stacksTo(1)));
+
+    public static final RegistryObject<Item> ULTIMATRIX = ITEMS.register("ultimatrix"
+            , () -> new Omnitrix(new Item.Properties().tab(ModCreativeModeTab.TUCANU_BENTENMOD).stacksTo(1)));
+
+    public static final RegistryObject<Item> NEGATIVE_ULTIMATRIX = ITEMS.register("negative_ultimatrix"
+            , () -> new Omnitrix(new Item.Properties().tab(ModCreativeModeTab.TUCANU_BENTENMOD).stacksTo(1)));
+
+    public static final RegistryObject<Item> THE_OMNITRIX = ITEMS.register("the_omnitrix"
+            , () -> new Omnitrix(new Item.Properties().tab(ModCreativeModeTab.TUCANU_BENTENMOD).stacksTo(1)));
 
     public static void register(IEventBus eventBus)
     {
